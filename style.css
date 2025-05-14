@@ -38,6 +38,13 @@
     cursor: pointer;
   }
 
+  .logo img {
+    max-width: 150px; 
+    height: auto;
+    display: block;
+  }
+  
+
   .hero {
     display: flex;
     justify-content: space-between;
