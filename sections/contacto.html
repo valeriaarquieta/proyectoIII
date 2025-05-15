@@ -26,15 +26,35 @@
         </div>
     </header>
     <section class="sucursales">
-        <div>
-            <h2>Nuestras Sucursales</h2>
-            <p>+523314580474</p>
-            <p>pedidos@plecton.com</p>
+        <div class="contact-section">
+            <h2 class="section-title">Contáctanos</h2>
+            <form class="contact-form">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" required />
+            
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" required />
+            
+                <label for="phone">Teléfono</label>
+                <input type="tel" id="phone" name="phone" />
+            
+                <label for="message">Mensaje</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            
+                <button type="submit">Enviar</button>
+            </form>
         </div>
+
         <div>
+            <div class="locations-container">
+                <h2>Nuestras Sucursales</h2>
+                <p>+523314580474</p>
+                <p>pedidos@plecton.com</p>
+            </div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.199007726968!2d-103.45855322523924!3d20.702141898917652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428a91db663d1f9%3A0x6cd714216f71aba!2sPLECTON!5e0!3m2!1ses-419!2smx!4v1747183050942!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
+
     <footer class="footer">
         <p>Síguenos en redes sociales:</p>
         <div class="social-icons">
